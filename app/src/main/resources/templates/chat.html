@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Chatroom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-$END$
+    <div class="container mt-4">
+        <h1 class="text-center">Real-Time Chat Application</h1>
+        <div id="chat"
+             class="border rounded p-3 mb-3"
+             style="height: 300px; overflow-y: auto;">
+        </div>
+
+        <div class="input-group mb-3">
+            <input id="senderInput" type="text" class="form-control" placeholder="Your name....."/>
+            
+        </div>
+    </div>
 </body>
 </html>
