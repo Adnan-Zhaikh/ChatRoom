@@ -49,8 +49,8 @@
 	function showMessage(message) {
 		var chat = document.getElementById('chat');
 		var messageElement = document.createElement('div');
-		messageElement.textContent = messae.sender + ' : ' + message.content;
-		messageElement.class = "border-bottom mb-1";
+		messageElement.textContent = message.sender + ' : ' + message.content;
+		messageElement.className = "border-bottom mb-1";
 		chat.appendChild(messageElement)
 		chat.scrollTop = chat.scrollHeight;
 	}
